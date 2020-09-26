@@ -3,7 +3,7 @@ import pandas as pd
 
 
 #Cleans out all the null values
-df = pd.read_excel('nba-mvp-voting.xlsx', index_col=0).fillna(value=0)
+df = pd.read_excel('actual_nba_mvp_data.xlsx', index_col=0).fillna(value=0)
 
 years = df.drop_duplicates(subset=['season'])
 years_in_list = years['season'].values.tolist()
