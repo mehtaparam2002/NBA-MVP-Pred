@@ -1,0 +1,2 @@
+answer = new_MaternGPR.predictFcn(tb1(:, [1:19]));
+output = cat(1,training_Names, answer);
