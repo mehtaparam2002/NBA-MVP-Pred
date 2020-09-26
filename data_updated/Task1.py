@@ -11,6 +11,8 @@ years_in_list = years['season'].values.tolist()
 x = df.drop(['award_share', 'season', 'player'] ,axis = 1) #dataset when you drop the response variable
 
 response_variable = df['award_share'] #the response variable
+season_variable = df['season']
+player_variable = df['player']
 
 #variable that counts the index
 counter = 0
